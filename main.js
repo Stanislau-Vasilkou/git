@@ -5,6 +5,6 @@ text.addEventListener('keyup', readInput);
 
 function readInput() {
 	answer.innerText = text.value;
+	console.log('text.value');
 }
 
-alert('It is working');
